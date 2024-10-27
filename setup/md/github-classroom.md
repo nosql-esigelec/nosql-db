@@ -4,11 +4,11 @@ Guide pour accepter un devoir et cloner un dépôt Github Classroom.
 ## Etapes à suivre
 
 1. **Acceptez le devoir** 
--  Suivez ce [lien](https://classroom.github.com/a/mSG5opVN)
+- Suivez ce [lien](https://classroom.github.com/a/gdTCbQm4)
 - Cherchez votre nom dans la liste des étudiants et sélectionnez le
 - Acceptez ensuite l'assignement
 - Un dépôt de code va s'auto-générer avec votre nom d'utilisateur Github comme préfixe.
-    Ex(cf. Image): `https://github.com/nosql-esigelec/username-file-bfotzo`
+    Ex(cf. Image): `https://github.com/nosql-esigelec/hello-world-bricefotzo`
 ![accpet](../../assets/images/accept-assignment.png)
  
 2. **Cloner votre dépôt d'assignement** :
