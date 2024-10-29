@@ -6,14 +6,8 @@ Ce dépôt est le centre de ressources pour le cours NoSQL que vous suivrez. Ici
 
 L'organisation de ce dépôt est conçue pour vous aider à naviguer à travers les différentes composantes du cours et du projet. Voici un aperçu de la structure et de la finalité de chaque partie :
 
-### `assets/`
-Contient toutes les images et les fichiers multimédia utilisés dans le contenu du cours et les documents de formation.
-
 ### `courses/`
 Ici, vous trouverez le contenu théorique sous forme de fichiers Markdown pour chaque session de cours. Consultez ces documents après les sessions de cours pour compléter votre apprentissage.
-
-### `resources/`
-Ce dossier est une bibliothèque de ressources supplémentaires telles que des articles, des tutoriels, et des liens utiles qui enrichiront votre compréhension des bases de données NoSQL.
 
 ### `setup/`
 Comprend des instructions détaillées et des scripts pour configurer l'environnement de développement dont vous aurez besoin pour les sessions pratiques et les sprints de développement du projet.
