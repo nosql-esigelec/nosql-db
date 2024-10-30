@@ -10,16 +10,23 @@ Welcome to the MongoDB workshop! In this session, you will learn how to set up a
 - Basic understanding of Docker concepts and commands
 
 ## MongoDB Setup with Docker
-
-1. **Start Mongo Express and MongoDB Shell**:
+1. **Clone this reop**:
+   ```bash
+   git clone https://github.com/nosql-esigelec/nosql-db
+   ```
+2. **Move to the current folder**
+   ```bash
+   cd training/getting_started_mongo/
+   ```
+3. **Start Mongo Express and MongoDB Shell**:
 
    We will use Docker Compose setup our mongo Database and Mongo Express. The `docker-compose.yml` file defines the services that will be started. Run the following command to start the services defined in the `docker-compose.yml` file:
 
    ```sh
    docker-compose up -d mongo-server mongo-express
    ```
-
-2. **Accessing Mongo Express(Optionnal)**:
+  > Before running this command, you need to download `docker-compose.yml` and the 
+4. **Accessing Mongo Express(Optionnal)**:
 
    Open a web browser and navigate to `http://localhost:8081`. Log in using the username `root` and the password `example`.
    > That's just visual client to manage your database, you can use it to create, update, delete and read data from your database. We won't use it in this workshop.
