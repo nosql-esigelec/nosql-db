@@ -28,7 +28,6 @@ Welcome to the Neo4j Docker workshop! Today, you'll learn how to run a Neo4j dat
          - ./validalab:/data
          - ./logs:/logs
          - ./conf:/conf
-
       environment:
          - NEO4J_AUTH=neo4j/password
          - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
