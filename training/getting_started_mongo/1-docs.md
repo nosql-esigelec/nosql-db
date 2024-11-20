@@ -28,7 +28,7 @@ Welcome to the MongoDB workshop! In this session, you will learn how to set up a
   > Before running this command, you need to download `docker-compose.yml` and the 
 4. **Accessing Mongo Express(Optionnal)**:
 
-   Open a web browser and navigate to `http://localhost:8081`. Log in using the username `root` and the password `example`.
+   Open a web browser and navigate to `http://localhost:8081`. Log in using the username `admin` and the password `pass`.
    > That's just visual client to manage your database, you can use it to create, update, delete and read data from your database. We won't use it in this workshop.
 ## MongoDB Basics
 
