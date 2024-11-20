@@ -84,6 +84,26 @@ Welcome to the Neo4j Docker workshop! Today, you'll learn how to run a Neo4j dat
 We will use the Jupyter Notebook to connect to our Neo4j instance and perform some operations in an application context.
 
 ### Connect to jupyter using the service jupyter
+
+Before starting the Jupyter container, make sure to load the database with the Validalab data.
+
+- Clean the current db
+   ```sh
+   docker-compose down
+   rm -rf ./validalab/*
+   ```
+   
+- Run the following command to load data:
+   ```sh
+   docker run --interactive --tty --rm \
+      -v ./validalab:/data \
+      -v ./backups:/backups \
+      -v ./logs:/logs \
+      --env NEO4J_ACCEPT_LICENSE_AGREEMENT=yes \
+      neo4j/neo4j-admin:4.4.15-enterprise \
+      neo4j-admin load --database=neo4j --from=/backups/2023-05-27T120002.dump 
+   ```
+
 ```sh
 docker-compose up jupyter
 ``` 
@@ -102,6 +122,8 @@ Open the link starting by `http://localhost:8888` in a web browser.
    ```cypher
    MATCH (n) RETURN n LIMIT 1;
    ```
+
+
 
 ## Conclusion
 
