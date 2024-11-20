@@ -3,3 +3,10 @@ archives
 .ipynb_checkpoints
 __pycache__
 .env
+**.db
+**/**/**.db
+**.db**
+databases
+**.log
+transactions
+dbms
