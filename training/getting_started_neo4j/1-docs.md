@@ -31,6 +31,7 @@ Welcome to the Neo4j Docker workshop! Today, you'll learn how to run a Neo4j dat
 
       environment:
          - NEO4J_AUTH=neo4j/password
+         - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
    jupyter:
       image: jupyter/datascience-notebook:latest
       container_name: jupyter
